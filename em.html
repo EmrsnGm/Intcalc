@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculate interest</title>
+</head>
+
+
+<body>
+<form>
+	<input type="number" name="" id="num1" placeholder="Pricipal Amount">
+	<input type="number" name="" id="num2" placeholder="Time">
+	<input type="number" name="" id="num3" placeholder="Rate">
+	<button type="button" onclick="Calculate()">submit</button>
+	
+</form>
+
+<script>
+
+console.log(Calculate())
+
+
+
+	function Calculate() {
+		let P = document.getElementById('num1').value
+		let R = document.getElementById('num2').value
+		let N = document.getElementById('num3').value
+		let cal = (P*R*N)/100;
+		
+
+	}
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
